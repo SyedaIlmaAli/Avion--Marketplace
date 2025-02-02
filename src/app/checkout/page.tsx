@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
 
 const CheckoutPage = () => {
   const [cartProducts, setCartProducts] = useState<
