@@ -33,7 +33,7 @@ const YouMayLike = () => {
     };
 
     fetchProducts();
-  }, []);
+  }, [products]);
 
   return (
     <div className="mx-8 ">

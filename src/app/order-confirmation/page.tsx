@@ -36,6 +36,7 @@ const OrderConfirmationPage = () => {
   useEffect(() => {
     // Retrieving the order details from localStorage or other state management
     const storedOrder = localStorage.getItem("orderDetails");
+    console.log("Stored Order Details:", storedOrder);
     if (storedOrder) {
       setOrderDetails(JSON.parse(storedOrder));
     } else {

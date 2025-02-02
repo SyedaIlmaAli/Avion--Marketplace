@@ -1,5 +1,7 @@
+import { defineType } from "sanity";
+
 // In your schema file
-export default {
+export const Order = defineType({
     name: 'order',
     title: 'Order',
     type: 'document',
@@ -103,5 +105,5 @@ export default {
         type: 'datetime',
       },
     ],
-  };
+  });
   

@@ -173,7 +173,6 @@ const Navbar = () => {
         </li>
         ))}
             <div className="flex gap-4 mt-4">
-            <Link href={"/cart"}>
             <svg
           width="16"
           height="16"
@@ -193,7 +192,6 @@ const Navbar = () => {
             fill="#2A254B"
           />
         </svg>
-        </Link>
 
         {isSearchOpen && (
         <div className="mx-8 my-4">
@@ -222,6 +220,7 @@ const Navbar = () => {
           </ul>
         </div>
       )}
+      <Link href= {"/cart"}>
             <svg
               width="16"
               height="16"
@@ -248,6 +247,7 @@ const Navbar = () => {
                 fill="#2A254B"
                 />
             </svg>
+            </Link>
             <Link href={"/wishlist"}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
